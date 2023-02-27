@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.css 
+# tar bort så att vissa filer (i detta fall css) inte laddas upp i git
