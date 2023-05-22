@@ -46,7 +46,8 @@ def update_listbox(antal_lott):
                 listbox.insert((i+2), vinst)
                 i +=1
         
-        else: (messagebox.showinfo("Too many"))
+        else: 
+            (messagebox.showinfo("Too many"))
 
     except ValueError:
         messagebox.showinfo("ERROR")
