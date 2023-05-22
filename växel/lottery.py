@@ -23,7 +23,7 @@ class lottery:
             "fem kilo badsalt",
             "En femtonårig pojke från sudan",
             "nio badankor fyllda med sprängmedel",
-            "4,89 kg av ren amfetamine",
+            "4,89 kg av ren amfetamin",
             "michelle obamas största tånagel"
         ]
 
