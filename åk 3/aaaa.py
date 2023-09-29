@@ -24,8 +24,21 @@ print()
 time.sleep(1)
 print("Hur mycket kronor innehavar ni?")
 saldo = int(input("Kr: "))
-print()
-print("OK")
+if saldo > 20000:
+    print()
+    print("Fan heller att du har så mycket pengar med de där kläderna")
+    print()
+    time.sleep(1.5)
+    exit()
+elif saldo < 249:
+    print()
+    print("Du har inte ens pengar till det billigaste vi erbjuder")
+    print()
+    time.sleep(2.5)
+    print("Oh well, lycka till")
+else:
+    print()
+    print("OK")
 time.sleep(1.5)
 os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -79,7 +92,7 @@ while looping:
                 else:
                     print("Jävla fattiglapp, gå tillbaka till ditt hus oh wait du har inget.")
                     print()
-                    time.sleep(4)
+                    time.sleep(3)
                     print("No money having ass")
                     time.sleep(2)
             elif bchoice == "n":
