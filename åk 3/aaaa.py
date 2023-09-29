@@ -346,7 +346,7 @@ while looping:
                             print("vad är dina åsikter om blåbärspaj?")
                             print("(1): Det funkar sisådär")
                             print("(2): Det är en av de sämsta pajerna")
-                            print("(3): Det är utan tvekan den bästa pajen")
+                            print("(3): Det är gudarnas gåva till oss dödliga varelser")
                             Svar4 = input("Svar: ")
 
                             if Svar4 == "3":
