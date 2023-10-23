@@ -1,0 +1,6 @@
+-- SQLite
+CREATE TABLE glosor (
+   id INTEGER PRIMARY KEY,
+   sve TEXT NOT NULL,
+   eng TEXT NOT NULL
+);
