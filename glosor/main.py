@@ -1,3 +1,12 @@
+import tkinter
+
+
+window = tkinter.Tk()
+window.title("Glosor")
+label = tkinter.Label(window,text = "Skriv Svensk glosa och dess motsvarande engelska glosa").pack()
+input_glos= tkinter.Entry(window).place(y=50)
+input_glos2= tkinter.Entry(window).place(y=75)
+
 print('Glos? \n')
 
 gloslist=[]
@@ -7,8 +16,8 @@ i=0
 
 while (mata != 'n'):
     glos=[]
-    input_glos = input("Skriv en svensk glosa: ")
-    input_glos2 = input("Skriv en engelsk glosa: ")
+    #input_glos = input("Skriv en svensk glosa: ")
+    #nput_glos2 = input("Skriv en engelsk glosa: ")
     glos.append(str(input_glos))
     glos.append(str(input_glos2))
 
@@ -20,7 +29,7 @@ mata='j'
 
 while (mata != 'n'):
     print ('\n nu startar provet\n')
-    antalR=0
+    antalR = 0
     antalG = len(gloslist)
 
     for a in gloslist:
@@ -40,10 +49,8 @@ while (mata != 'n'):
     if antalR==antalG:
         print('Alla rätt! \n')
     else:
-        print('Du hade ', antalR, ' av ', antalG, ' stycken glosor \n')
+        print('Du hade', antalR, ' av ', antalG, 'glosor \n')
 
     mata = input('Vill du repetera provet j/n? \n')
-        
-        
 
-
+    
