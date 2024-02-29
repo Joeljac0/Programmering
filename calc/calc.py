@@ -1,2 +1,1 @@
-while True:
-    print("Result:", (lambda x, y, op: x + y if op == '+' else x - y if op == '-' else x * y if op == '*' else x / y if op == '/' and y != 0 else 'Invalid input')(float(input("Enter first number: ")), float(input("Enter second number: ")), input("Enter operation (+, -, *, /): ")))
+while True: print("Result:", (lambda x, y, op: x + y if op == '+' else x - y if op == '-' else x * y if op == '*' else x / y if op == '/' and y != 0 else 'Invalid input')(float(input("Enter first number: ")), float(input("Enter second number: ")), input("Enter operation (+, -, *, /): ")))
